@@ -13,13 +13,11 @@
     <img src="https://img.shields.io/discord/725513575971684472?label=Discord&color=7289da" alt="Files Discord" /></a>
 </p>
 
-Files is a modern file manager that helps users organize their files and folders. Our mission with Files is to build the best file manager for Windows, and we’re proud to be building it out in the open so everyone can participate. User feedback helps shape the features we work on, & the bug reports on GitHub help to make Files more reliable. Built and maintained by the open-source community, Files features robust multitasking experiences, file tags, deep integrations, and an intuitive design.
+Files - это современный файловый менеджер, который помогает пользователям организовывать их файлы и папки. Цель Files - создать лучший файловый менеджер для Windows, и команда разработки рада работать над проектом в открытую, чтобы каждый смог принять участие в процессе. Пользовательские отзывы помогают при добавлении новых возможностей, а сообщения об ошибках на GitHub позволяют сделать Files более надёжной программой. Созданный и поддерживаемый open-source сообществом, Files предоставляет невероятный опыт мультизадачности, файловых меток, глубоких интеграций и интуитивно понятный дизайн.
 
-## Installing and running Files
+## Установка и запуск Files
 
-Files is a community-driven project that depends on your support to grow and improve. Please consider purchasing Files through the Microsoft Store or supporting us on GitHub if you use the classic installer.
-
-You can also use the preview version alongside the stable release to get early access to new features and improvements.
+Files - это проект, разрабатываемый сообществом, рост и развитие которого зависят от вашей поддержки. Пожалуйста, приобретите Files в Microsoft Stor или поддержите проект на GitHub, если собираетесь использовать классический установщик.
 
 <p align="left">
   <!-- Store Badge -->
@@ -37,17 +35,33 @@ You can also use the preview version alongside the stable release to get early a
     </picture></a>
 </p>
 
-## Building from source
+## Сборка из исходных файлов
 
-Instructions for building the source code can be found on our [documentation site](https://files.community/docs/contributing/building-from-source).
+### 1. Подготовка
+
+Для сборки Files из исходных файлов необходимы:
+
+- Visual Studio 2022 со следующими компонентами:
+    - Windows 11 SDK (10.0.22621.0)
+    - .NET 8 SDK (версия 8.0.303)
+    - MSVC v143 - VS 2022 C++ x64/x86 или ARM64 build tools (последней версии)
+    - C++ ATL for latest v143 build tools (x86 & x64 or ARM64)
+    - Git для Windows
+- Windows App SDK 1.5
+
+### 2. Клонирование репозитория
+
+`git clone https://github.com/files-community/Files`
+
+Эта команда создаст локальную копию репозитория на вашем устройстве.
+
+### 3. Развернуть проект в Visual Studio
+
+Для сборки приложения в режиме разработки откройте sln-файл в Visual Studio (Files.sln) и установите проект Files.Packages, как входную точку, нажав правой кнопкой мыши на `File.Packages` в окне обозревателе решений (Solution explorer) и выберите пункт "Установить как входную точку" ("Set as Startup item").
+
+На панели инструментов выберите ахритектуру вашей системы и укажите `Debug`. Теперь вы можете начинать сборку.
+
+Также инструкция по самостоятельной сборке приложения находится на [сайте с документацией](https://files.community/docs/contributing/building-from-source).
 
 
-## Contributing to Files
 
-Want to contribute to this project? Let us know with an [issue](https://github.com/files-community/Files/issues) that communicates your intent to create a [pull request](https://github.com/files-community/Files/pulls). Also, view our [contributing guidelines](https://github.com/files-community/Files/blob/main/.github/CONTRIBUTING.md) to make sure you're up to date on the coding conventions.
-
-Looking for a place to start? Check out the [task board](https://github.com/orgs/files-community/projects/3/views/2), where you can sort tasks by size and priority.
-
-## Screenshots
-
-![Files](./assets/FilesScreenshot.png)
