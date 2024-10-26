@@ -63,5 +63,8 @@ Files - это проект, разрабатываемый сообщество
 
 Также инструкция по самостоятельной сборке приложения находится на [сайте с документацией](https://files.community/docs/contributing/building-from-source).
 
+___
+
+[Основной репозиторий проекта](https://github.com/files-community/Files)
 
 
