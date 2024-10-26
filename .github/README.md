@@ -2,17 +2,6 @@
   <img alt="Files hero image" src="./assets/ReadmeHero.png" />
 </p>
 
-<p align="center">
-  <a style="text-decoration:none" href="https://files.community/">
-    <img src="https://img.shields.io/badge/Files-Website-F9B81F" alt="Files Website" /></a>
-  <a style="text-decoration:none" href="https://github.com/files-community/Files/actions/workflows/ci.yml">
-    <img src="https://github.com/files-community/Files/actions/workflows/ci.yml/badge.svg" alt="Files CI Status" /></a>
-  <a style="text-decoration:none" href="https://crowdin.com/project/files-app">
-    <img src="https://badges.crowdin.net/files-app/localized.svg" alt="Files Localization Status" /></a>
-  <a style="text-decoration:none" href="https://discord.gg/files">
-    <img src="https://img.shields.io/discord/725513575971684472?label=Discord&color=7289da" alt="Files Discord" /></a>
-</p>
-
 Files - это современный файловый менеджер, который помогает пользователям организовывать их файлы и папки. Цель Files - создать лучший файловый менеджер для Windows, и команда разработки рада работать над проектом в открытую, чтобы каждый смог принять участие в процессе. Пользовательские отзывы помогают при добавлении новых возможностей, а сообщения об ошибках на GitHub позволяют сделать Files более надёжной программой. Созданный и поддерживаемый open-source сообществом, Files предоставляет невероятный опыт мультизадачности, файловых меток, глубоких интеграций и интуитивно понятный дизайн.
 
 ## Установка и запуск Files
