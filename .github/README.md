@@ -40,7 +40,11 @@ Files - это проект, разрабатываемый сообщество
 
 ### 2. Клонирование репозитория
 
+В командной строке введите одну из ниже приведённых команд:
+
 `git clone https://github.com/files-community/Files`
+
+`git clone https://github.com/Kurogitsunee/Homework-DevOps`
 
 Эта команда создаст локальную копию репозитория на вашем устройстве.
 
